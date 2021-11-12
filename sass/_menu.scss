@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background-color: chocolate;
+
+    &-item{
+        flex-grow: 1;
+
+        &_link{
+            display: block;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+        }
+
+        &:hover {
+            text-decoration: underline;
+            background-color: orangered;
+        }
+    }
+}

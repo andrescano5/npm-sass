@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  background-color: chocolate;
+}
+.menu-item {
+  flex-grow: 1;
+}
+.menu-item_link {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.menu-item:hover {
+  text-decoration: underline;
+  background-color: orangered;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=general.css.map */
